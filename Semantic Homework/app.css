@@ -1,7 +1,13 @@
 html {
     scroll-behavior: smooth;
   }
-  
+img {
+    width: 70%;
+    margin: 5px;
+    margin: 20px 0px;
+    border: 3px solid #457B9D;
+    
+}
 body {
     display: flex;
     flex-direction: column;
@@ -101,6 +107,14 @@ aside {
     padding-top: 100px;
     margin-top: -100px;
    }
+#photos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 #article01 {
     grid-area: article01;
 }
