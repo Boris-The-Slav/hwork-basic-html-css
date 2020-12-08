@@ -19,7 +19,7 @@ article{
 }
 main {
     max-width: 100%;
-    margin: 40px 40px;
+    margin: 40px 20px;
     margin-left: 0px;
     margin-bottom: 0px;
     display: grid;
@@ -119,13 +119,23 @@ form input {
     padding-top: 100px;
     margin-top: -100px;
    }
-#photos {
+.photos {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 3px;
+    grid-gap: 8px;
     
+}
+#btn {
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: #E63946;
+    font-size: 1rem;
+    color: #F1FAEE;
+    border: 2px groove #1D3557;
 }
 
 #article01 {
@@ -166,7 +176,7 @@ and to move some of the elements as the screen is getting smaller */
 @media(max-width: 850px){
     main {
         max-width: 100%;
-        margin: 40px 40px;
+        margin: 40px 20px;
         margin-left: 0px;
         margin-bottom: 0px;
         margin-right: 0px;
@@ -201,7 +211,7 @@ and to move some of the elements as the screen is getting smaller */
     
 }
 @media (max-width: 1300px){
-    #photos {
+    .photos {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
