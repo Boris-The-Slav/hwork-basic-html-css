@@ -1,0 +1,93 @@
+:root {
+    --border: 3px solid #453a36;
+    --yellow: #fef9e6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    height: 800px;
+    width: 800px;
+    background-color: lightgray;
+    border: var(--border);
+    margin: 80px auto;
+    
+    position: relative;
+}
+#leftBox {
+    background-color: lightpink;
+    width: 25%;
+    height: 100%;
+    border: var(--border)
+
+}
+#leftBox div:nth-of-type(1){
+    height: 35%;
+    width: 100%;
+    background-color: var(--yellow);
+    border: var(--border)
+}
+#leftBox div:nth-of-type(2){
+    height: 40%;
+    width: 100%;
+    background-color: var(--yellow);
+    border: var(--border)
+}
+#leftBox div:nth-of-type(3){
+    height: 25%;
+    width: 100%;
+    background-color: #409cc5;
+    border: var(--border)
+}
+
+
+
+
+#rightBox {
+    background-color: lightblue;
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: var(--border);
+}
+#rightBox>div:nth-of-type(1) {
+    width: 100%;
+    height: 75%;
+    background-color: #ec4938;
+    border: var(--border);
+}
+#rightBox>div:nth-of-type(2){
+    width: 100%;
+    height: 25%;
+    background-color: var(--yellow);
+    border: var(--border);
+    position: relative;
+}
+
+#smallBoxes {
+    width: 10%;
+    height: 100%;
+    background-color: lightgreen;
+    position: absolute;
+    right: 0px;
+    border: var(--border);
+}
+#smallBoxes div:nth-of-type(1) {
+    width: 100%;
+    height: 50%;
+    background-color: var(--yellow);
+    border: var(--border);
+    border-width: 0px 0px 5px 10px;
+}
+#smallBoxes div:nth-of-type(2) {
+    width: 100%;
+    height: 50%;
+    background-color: #ffff00;
+    border: var(--border);
+    border-width: 0px 0px 0px 10px;
+}
