@@ -1,0 +1,144 @@
+:root {
+    --border: 17px solid black;
+    --mustard: #edcc6b;
+    --red: #d62d24;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 800px;
+    width: 800px;
+    margin: 80px auto;
+    background-color: lightgray;
+    display: grid;
+    grid-template-rows: repeat(7,1fr) 0.4fr 0.4fr;
+    grid-template-columns: repeat(7,1fr) 0.6fr;
+    grid-template-areas: 
+    "a a b b b c c z"
+    "d g g g g h h z"
+    "d g g g g h h z"
+    "e g g g g i j z"
+    "e g g g g i j z"
+    "e k k l l m m z"
+    "f k k n n o o x"
+    "f p p q q o o x"
+    "f p p r r r r x"
+    ;
+}
+#box01{
+    background-color: #e5eeeb;
+    grid-area: a;
+    border-bottom: var(--border);
+    border-right: var(--border);
+}
+#box02{
+    background-color: #f2e7d5;
+    grid-area: b;
+    border-bottom: var(--border);
+    border-right: var(--border);
+}
+#box03{
+    background-color: #f2c968;
+    grid-area: c;
+    border-bottom: var(--border);
+}
+#box04{
+    background-color: #fbfde7;
+    grid-area: d;
+    border-right: var(--border);
+    border-bottom:var(--border);;
+}
+#box05{
+    background-color: #e1eae5;
+    grid-area: e;
+    border-right: var(--border);
+}
+#box06{
+    background-color: #f4c65a;
+    grid-area: f;
+    border-right: var(--border);
+    border-top: var(--border);
+}
+#box07{
+    background-color: #d62d24;
+    grid-area: g;
+    border-right: var(--border);
+    
+}
+#box08{
+    background-color: #edcc6b;
+    grid-area: h;
+    border-bottom: var(--border);
+}
+#box09{
+    background-color: #dfe5d0;
+    grid-area: i;
+    border-right: 10px solid black;
+}
+#box010{
+    background-color: #f2eee2;
+    grid-area: j;
+    border-left: 10px solid black;
+}
+#box011{
+    background-color: #130409;
+    grid-area: k;
+    border-top: var(--border);
+    border-bottom: var(--border);
+    
+}
+#box012{
+    background-color: #c0bfba;
+    grid-area: l;
+    border-right: var(--border);
+    border-top: var(--border);
+    
+}
+#box013{
+    background-color:#d6dee0;
+    grid-area: m;
+    border-top: var(--border);
+}
+#box014{
+    background-color: #dee2d4;
+    grid-area: n;
+    border-right: var(--border);
+    border-bottom: var(--border);
+    border-top: var(--border);
+}
+#box015{
+    background-color:#241785;
+    grid-area: o;
+    border-top: var(--border);
+}
+#box016{
+    background-color:#e3ded9;
+    grid-area: p;
+    border-right: var(--border);
+}
+#box017{
+    background-color:#0b0205;
+    grid-area: q;
+}
+#box018{
+    background-color:#e0e0df;
+    grid-area: r;
+    border-top: var(--border);
+}
+#box019{
+    background-color:#fcfde7;
+    grid-area: z;
+    border-left: var(--border);
+}
+#box020{
+    background-color: #d73630;
+    grid-area: x;
+    border-left: var(--border);
+    border-top: var(--border);;
+}
