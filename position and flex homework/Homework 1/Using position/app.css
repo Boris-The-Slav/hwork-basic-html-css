@@ -8,23 +8,23 @@
     box-sizing: border-box;
     
 }
-#home {
+#container {
     width: 800px;
     height: 800px;
     position: relative;
     margin: 80px auto;
 
 }
-#home div {
+#container div {
     border: var(--border)
 }
-#div1 {
+#box01 {
     width: 25%;
     height: 30%;
     background-color: var(--yellow);
     border: var(--border)
 }
-#div2 {
+#box02 {
     position: absolute;
     width: 75%;
     height: 75%;
@@ -33,18 +33,18 @@
     background-color: #ec4938;
     border: var(--border);
 }
-#div3 {
+#box03 {
     width: 25%;
     height: 45%;
     background-color: var(--yellow);
     border: var(--border)
 }
-#div4 {
+#box04 {
     width: 25%;
     height: 25%;
     background-color: #409cc5;
 }
-#div5 {
+#box05 {
     width: 68%;
     height: 25%;
     background-color: var(--yellow);
@@ -52,7 +52,7 @@
     bottom: 0px;
     left: 25%;
 }
-#div6 {
+#box06 {
     height: 12.5%;
     width: 7%;
     background-color: #ffff00;
@@ -60,7 +60,7 @@
     right: 0px;
     bottom: 0px;
 }
-#div7 {
+#box07 {
     height: 12.5%;
     width: 7%;
     background-color: var(--yellow);
