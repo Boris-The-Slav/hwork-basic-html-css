@@ -43,7 +43,7 @@ body {
     border-radius: 50%;
     position: relative;
     animation-name: circles;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
 
